@@ -193,8 +193,8 @@ task(
 
     table.push([
       { content: item.displayName },
-      { content: `${deploySize} (${deployDiff})`, hAlign: 'right' },
-      { content: `${initSize} (${initDiff})`, hAlign: 'right' },
+      { content: `${deploySize}`, hAlign: 'right' },
+      { content: `${initSize}`, hAlign: 'right' },
     ]);
   }
 
